@@ -1,0 +1,212 @@
+<html>
+    <head>
+        <title>Quiz Game</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="css/materialize.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <script type="text/javascript">
+          function timeout(){
+            var minute = Math.floor(timeleft/60);
+            var second = timeleft % 60;
+            if(timeleft<=0){
+              clearTimeout(tm);
+              window.location.href= 'http://localhost/quiz_game/thank.html';
+            }
+            else
+            {
+              document.getElementById("time").innerHTML=minute +" : "+ second;
+            }
+            timeleft--;
+           var tm = setTimeout(function(){
+              timeout()
+            },1000);
+          }
+        </script>
+    </head>
+    <body onload="timeout()">
+        <header> 
+          <script type="text/javascript">
+          var timeleft = 2 * 60;
+          </script>
+  <nav>
+    <div class="container">
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo">Quiz Game</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <h4><li id="time">timeout</li></h4>
+      </ul>
+    </div>
+    </div>
+  </nav>
+        </header>
+        
+        <div class="container">
+          <form action="server.php" id="form_quiz" method="post">
+            <h4>What is our company name?</h4>
+            <div class="row">
+            <div class="col s6">
+            <p>
+                <label>
+                  <input name="ques_one" type="radio" value="Ajit Marketing Pvt Ltd" />
+                  <span>Ajit Marketing Pvt Ltd</span>
+                </label>
+              </p>
+              <p>
+                <label>
+                  <input name="ques_one" type="radio" value="Abro Marketing Pvt Ltd" />
+                  <span>Abro Marketing Pvt Ltd</span>
+                </label>
+              </p>
+              </div>
+              <div class="col s6">
+              <p>
+                <label>
+                  <input name="ques_one" type="radio" value="Ajit Indonesia Pvt Ltd" />
+                  <span>Ajit Indonesia Pvt Ltd</span>
+                </label>
+              </p>
+              <p>
+                <label>
+                  <input name="ques_one" type="radio" value="Ajit Industries Pvt Ltd" />
+                  <span>Ajit Industries Pvt Ltd</span>
+                </label>
+              </p>
+              </div>
+              </div>
+              <h4>What is LEARN & TRACK?</h4>
+              <div class="row">
+              <div class="col s6">
+              <p>
+                  <label>
+                    <input name="ques_two" type="radio" value="The Booklet which we got in Annual sales meet to Track our buisness." checked />
+                    <span>The Booklet which we got in Annual sales meet to Track our buisness.</span>
+                  </label>
+                </p>
+                <p>
+                  <label>
+                    <input name="ques_two" type="radio" value="The Booklet which we got in Month sales meet to Track our buisness." />
+                    <span>The Booklet which we got in Month sales meet to Track our buisness.</span>
+                  </label>
+                </p>
+                </div>
+                <div class="col s6">
+                <p>
+                  <label>
+                    <input name="ques_two" type="radio" value="The Booklet which we got in regular day sales meet to Track our buisness." />
+                    <span>The Booklet which we got in regular day sales meet to Track our buisness.</span>
+                  </label>
+                </p>
+                <p>
+                  <label>
+                    <input name="ques_two" type="radio" value="The Booklet which we got in twice year nual sales meet to Track our buisness." />
+                    <span>The Booklet which we got in twice year nual sales meet to Track our buisness.</span>
+                  </label>
+                </p>
+                </div>
+                </div>
+                <h4>What does these stands for GP,NS and WS.</h4>
+                <div class="row">
+                <div class="col s6">
+                <p>
+                    <label>
+                      <input name="ques_three" type="radio" value="General Purpose, Natural Silicon, Whether Silicone"/>
+                      <span>General Purpose, Natural Silicon, Whether Silicone</span>
+                    </label>
+                  </p>
+                  <p>
+                    <label>
+                      <input name="ques_three" type="radio" value="Genuine Purpose, Neutral Silicon, Whether Silicone" />
+                      <span>Genuine Purpose, Neutral Silicon, Whether Silicone</span>
+                    </label>
+                  </p>
+                  </div>
+                  <div class="col s6">
+                  <p>
+                    <label>
+                      <input name="ques_three" type="radio" value="General Purpose, Neutral Silicon, Whether Silicone" />
+                      <span>General Purpose, Neutral Silicon, Whether Silicone</span>
+                    </label>
+                  </p>
+                  <p>
+                    <label>
+                      <input name="ques_three" type="radio" value="General Purpose, Neutral Silicon, Weather Silicone" />
+                      <span>General Purpose, Neutral Silicon, Weather Silicone</span>
+                    </label>
+                  </p>
+                  </div>
+                  </div>
+                  <h4>What is the full form of SBR</h4>
+                  <div class="row">
+                  <div class="col s6">
+                  <p>
+                      <label>
+                        <input name="ques_four" type="radio" value="Styrene butadiene razer"/>
+                        <span>Styrene butadiene razer</span>
+                      </label>
+                    </p>
+                    <p>
+                      <label>
+                        <input name="ques_four" type="radio" value="Styrene button rubber"/>
+                        <span>Styrene button rubber</span>
+                      </label>
+                    </p>
+                    </div>
+                    <div class="col s6">
+                    <p>
+                      <label>
+                        <input name="ques_four" type="radio" value="Simple butadiene rubber"/>
+                        <span>Simple butadiene rubber</span>
+                      </label>
+                    </p>
+                    <p>
+                      <label>
+                        <input name="ques_four" type="radio" value="Styrene butadiene rubber"/>
+                        <span>Styrene butadiene rubber</span>
+                      </label>
+                    </p>
+                    </div>
+                    </div>
+                    <h4>What is the time to send selfie daily?</h4>
+                    <div class="row">
+                    <div class="col s6">
+                    <p>
+                        <label>
+                          <input name="ques_five" type="radio" value="12:30 PM"  />
+                          <span>12:30 PM</span>
+                        </label>
+                      </p>
+                      <p>
+                        <label>
+                          <input name="ques_five" type="radio" value="10:00 AM" />
+                          <span>10:00 AM</span>
+                        </label>
+                      </p>
+                      </div>
+                      <div class="col s6">
+                      <p>
+                        <label>
+                          <input name="ques_five" type="radio" value="9:30 AM" />
+                          <span>9:30 AM</span>
+                        </label>
+                      </p>
+                      <p>
+                        <label>
+                          <input name="ques_five" type="radio" value="8:00 AM"/>
+                          <span>8:00 AM</span>
+                        </label>
+                      </p>
+                      </div>
+                      </div>
+                      <div class="row">
+                        <div class="col s12">
+                          <button type="submit" value="submit" class="waves-effect waves-light btn" name="submit">Submit</button>
+                        </div>
+                      </div>
+                      </form>
+        </div>
+        <footer>
+
+        </footer>
+        <script src="js/materialize.min.js"></script>
+    </body>
+</html>
