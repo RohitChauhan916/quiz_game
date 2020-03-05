@@ -14,36 +14,46 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-5  col-sm-6 col-xs-12 form_div">
-				<form action="signin.php" method="post">
+            <?php 
+                    if(isset($_GET['run']) && $_GET['run']=="success"){
+                        echo "<mark>Successfully Registration</mark>";
+                    }
+                ?>
+             <?php 
+                    if(isset($_GET['run']) && $_GET['run']=="allreadyexists"){
+                        echo "<mark>email allready exists</mark>";
+                    }
+                ?>
+				<form action="signup.php" method="post" enctype="multipart/form-data">
 					  <div class="imgcontainer">
 						<img src="images/aipl.png" alt="logo" class="logo">
 					  </div>
 
 					  <div class="input_data">
-                            <h2>login form </h2>
-                            <?php
-                        if(isset($_GET['run']) && $_GET['run']=="failed"){
-                            echo "<mark>your email or password is incorrect</mark>";
-                        }
-                    ?>
+					        <h2>signup form </h2>
+					        
 					        <div class="input_block">
-                                <input type="text" placeholder="Enter Email" name="reg_email" required class="email_input">
-                                <?php if (isset($email_error)): ?>
-      	                        <span><?php echo $email_error; ?></span>
-                                <?php endif ?>
+								<input type="text" placeholder="Enter Username" name="reg_name" required class="user_input">
 							</div>
-
+							
+							<div class="input_block">
+								<input type="text" placeholder="Enter Email" name="reg_email" required class="email_input">
+							</div>
+							
 							<div class="input_block">
 								<input type="password" placeholder="Enter Password" name="reg_pass" required class="password_input">
 							</div>
 
+							<div class="input_block">
+							    <label> Upload image  </label>
+								<input type="file" id="myFile" name="reg_img">
+							</div>
+
 							
-							<button type="submit">Login</button>
+							<button type="submit">Signup</button>
 							
 						</div>
 					  
-
-					    <p class="sign_up"> Don't have an account .  <a href="sign_up.html" target="_blank"> Sign up  </a></p>
 					
 				</form>
 			</div>

@@ -7,93 +7,123 @@ $_SESSION['cat']=$cat;
 /*echo "<pre>";
 print_r($qus->qus);*/
 ?>
+<!DOCTYPE html>
 <html>
 <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <link rel="stylesheet" href="css/materialize.min.css">
-        <link rel="stylesheet" href="css/style.css">
+ <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,400,700&display=swap" rel="stylesheet"> 
+  <script type="text/javascript">
+    function timeout() {
+      var minute = Math.floor(timeLeft/60);
+	  var second = timeLeft%60;
+	  if(timeLeft <= 0){
+		  clearTimeout(tm);
+		  document.createElement('form').submit.call(document.getElementById('form1'));
+	  }
+	  else{
+		document.getElementById("time").innerHTML = minute + " : " + second; 
+	  }
+	  timeLeft--;
+	  var tm = setTimeout(function() { timeout() },1000);
+    }
+  </script>
 </head>
-<body>
-    <form action="answer.php" method="post">
-        <?php
-        $i=1;
-            foreach($qus->qus as $quest)
-            {
-        ?>
-        <div id="quiz">
-        <div class="container">
-        <div class="row">
-        <div class="col s12">
-<table>
-        <thead>
-          <tr>
-              <th class="card-panel green lighten-5"><?php echo $i.")"; ?><?php echo $quest['question'];?></th>
-          </tr>
-        </thead>
-        <tbody>
-            <?php if(isset($quest['ans1'])) { ?>
-          <tr>
-            <td><p>
-                <label>
-                  <input type="radio" value="0" name="<?php echo $quest['id']; ?>" />
-                  <span><?php echo $quest['ans1'];?></span>
-                </label>
-              </p></td>
-          </tr>
-            <?php } ?>
+<body onload="timeout()">
+	
+
+<div class="paper_align">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-sm-12 col-xs-12 paper_div">
+			     <div class="header_top">
+				    <div class="head_brand">
+                        <img src="images/aipl.png" alt="logo">  
+					</div>
+            <h5> online application test </h5>
+            <script type="text/javascript">
+              var timeLeft=1*60;
+            </script>
+					<div class="timer_set">
+                        <h4 id="time">timeout</h4>
+                    </div>					 
+				 </div>
+			    <div class="paper_block">				       
+				         <form action="answer.php" id="form1" method="post">
+                 <?php
+                  $i=1;
+                   foreach($qus->qus as $quest)
+                  {
+                  ?>
+        <div class="questions">
+         <h4><?php echo $i.")"; ?><?php echo $quest['question'];?></h4>
+							<div class="options_block">
+              <?php if(isset($quest['ans1'])) { ?>
+							    <p>
+									<label>
+										<input name="<?php echo $quest['id']; ?>" type="radio" value="0" />
+										<span><?php echo $quest['ans1'];?></span>
+									</label>
+								</p>
+                <?php } ?>
             <?php if(isset($quest['ans2'])) { ?>
-          <tr>
-            <td><p>
-                <label>
-                  <input type="radio" value="1" name="<?php echo $quest['id']; ?>" />
-                  <span><?php echo $quest['ans2'];?></span>
-                </label>
-              </p></td>
-          </tr>
-            <?php }?>
-            <?php if(isset($quest['ans3'])) { ?>
-          <tr>
-            <td><p>
-                <label>
-                  <input type="radio" value="2" name="<?php echo $quest['id']; ?>" />
-                  <span><?php echo $quest['ans3'];?></span>
-                </label>
-              </p></td>
-          </tr>
-            <?php }?>
+								<p>
+									<label>
+										<input name="<?php echo $quest['id']; ?>" type="radio" value="1" />
+										<span><?php echo $quest['ans2'];?></span>
+									</label>
+								</p>
+                <?php }?>
+            <?php if(isset($quest['ans3'])) { ?>      
+								 <p>
+									<label>
+										<input name="<?php echo $quest['id']; ?>" type="radio" value="2" />
+										<span><?php echo $quest['ans3'];?></span>
+									</label>
+								</p>
+								<?php }?>
             <?php if(isset($quest['ans4'])) { ?>
-          <tr>
-            <td><p>
-                <label>
-                  <input type="radio" value="3" name="<?php echo $quest['id']; ?>" />
-                  <span><?php echo $quest['ans4'];?></span>
-                </label>
-              </p></td>
-          </tr>
-            <?php }?>
-            <tr style="display:none">
-            <td><p>
-                <label>
-                  <input type="radio" checked="checked" value="no_attempt" name="<?php echo $quest['id']; ?>" />
-                  <span></span>
-                </label>
-              </p></td>
-          </tr>
-        </tbody>
-      </table>
+								<p>
+									<label>
+										<input name="<?php echo $quest['id']; ?>" type="radio" value="3" />
+										<span><?php echo $quest['ans4'];?></span>
+									</label>
+								</p>
+                <?php }?>
+                <p style="display:none">
+									<label>
+										<input name="<?php echo $quest['id']; ?>" type="radio" value="no_attempt" checked="checked"/>
+										<span><?php echo $quest['ans4'];?></span>
+									</label>
+								</p>
+							</div>
             </div>
-            </div>
-            </div>
-            </div>
-            <?php
+							<?php
             $i++;}
       ?>
-       <center><a class="waves-effect waves-light btn" id="previous">Previous Question</a></center>
-       <center><a class="waves-effect waves-light btn" id="next">Next Question</a></center>
-      <center><button class="waves-effect waves-light btn">Submit Quiz</button></center>
-            </form>
-      <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-  <script src="js/materialize.min.js"></script>
-  <script src="js/main.js"></script>  
+						 
+                        					 
+               </div>   
+
+                 <div class="online_button">
+          <input type="button" value="Previous" class="waves-effect waves-light btn" id='previous'>
+          <input type="button" value="Next" class="waves-effect waves-light btn" id='next'>
+          <button type="submit" value="submit" class="waves-effect waves-light btn" name="submit">submit</button>    	
+                </div>
+				</form>  			   
+			</div>
+		</div>
+	</div>
+</div>
+<script>
+    $(document).ready(function () {
+        $('div.questions').find('input:radio').prop('checked', false);
+    });
+</script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+<script src="js/quiz.js"></script> 
+
 </body>
 </html>

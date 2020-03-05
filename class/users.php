@@ -11,7 +11,7 @@ session_start();
         public $cat;
         public $qus;
 
-    public function __construct()
+      public function __construct()
     {
         $this->conn = new mysqli($this->host,$this->username,$this->password,$this->db_name);
         if($this->conn->connect_errno)
@@ -21,6 +21,7 @@ session_start();
     }
 
     public function register($data) {
+        
         $this->conn->query($data);
         return true;
     }
