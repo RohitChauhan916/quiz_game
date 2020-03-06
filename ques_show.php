@@ -6,6 +6,10 @@ $qus->ques_show($cat);
 $_SESSION['cat']=$cat;
 /*echo "<pre>";
 print_r($qus->qus);*/
+if($_SESSION['reg_email']=="")
+{
+	header("Location:".$url);
+}
 ?>
 <!DOCTYPE html>
 <html>
@@ -47,7 +51,7 @@ print_r($qus->qus);*/
               var timeLeft=1*60;
             </script>
 					<div class="timer_set">
-                        <h4 id="time">timeout</h4>
+                        <h3 id="time">timeout</h3>
                     </div>					 
 				 </div>
 			    <div class="paper_block">				       

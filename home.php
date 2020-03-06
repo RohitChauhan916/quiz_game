@@ -4,6 +4,10 @@
     $profile = new users;
     $profile->users_profile($reg_email);
    // print_r($profile->data);
+   if($_SESSION['reg_email']=="")
+   {
+	   header("Location:".$url);
+   }
 ?>
 <!DOCTYPE html>
 <html>
@@ -37,7 +41,10 @@
 					        
 					        <div class="input_block dummy_image">
 								<img src="img/<?php echo $prof['img'];?>" alt="">
-              </div>
+			  </div>
+			  <div class="logout">
+			  <button type="submit"><a href = "logout.php">Sign Out</a></button>
+			</div>
               <?php
             }
           ?>

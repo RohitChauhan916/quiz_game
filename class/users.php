@@ -90,7 +90,7 @@ session_start();
          }
         }
         $email = $_SESSION['reg_email'];
-        $qust = $this->conn->query("insert into answer values ('','$email','$right','$wrong','$no_answer')");
+        $qust = $this->conn->query("insert into answer values ('','','$email','$right','$wrong','$no_answer') LIMIT 1");
         $array=array();
         $array['right']=$right;
         $array['no_answer']=$no_answer;
