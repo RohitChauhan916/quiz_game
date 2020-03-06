@@ -1,6 +1,9 @@
 <?php 
 include("class/users.php");
 $qus = new users;
+$reg_email = $_SESSION['reg_email'];
+$profile =new users;
+$profile->users_profile($reg_email);
 $cat = $_POST['cat'];
 $qus->ques_show($cat);
 $_SESSION['cat']=$cat;
@@ -47,9 +50,16 @@ if($_SESSION['reg_email']=="")
                         <img src="images/aipl.png" alt="logo">  
 					</div>
             <h5> online application test </h5>
+			<?php
+            foreach($profile->data as $prof){
+
+            ?>
 				<div class="input_right">
-					   <input type="text" placeholder="Username" name="uname" required class="online_input">
+				<div class="online_input">
+				<?php echo $prof['name'];?>
+					   </div>
 					</div>
+			<?php } ?>
             <script type="text/javascript">
               var timeLeft=1*60;
             </script>

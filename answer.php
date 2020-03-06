@@ -1,7 +1,11 @@
 <?php
     include("class/users.php");
     $ans = new users;
-    $answer = $ans->answer($_POST);
+	$answer = $ans->answer($_POST);
+	if($_SESSION['reg_email']=="")
+	{
+		header("Location:".$url);
+	}
 ?>
 <!DOCTYPE html>
 <html>
@@ -17,7 +21,7 @@
 
 <div class="form_align">
 	<div class="container">
-		<button type="submit" value="submit" class="btn_prv" name="submit">logout</button>
+		<button type="submit" value="submit" class="btn_prv" name="submit"><a href = "logout.php">logout</a></button>
 		<div class="row">
 			<div class="col-md-5  col-sm-6 col-xs-12 form_div res_data">
 		
