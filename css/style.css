@@ -9,6 +9,14 @@ body {
     float: left;
     display: block;
 }
+.logout {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.logout a {
+    color: #fff;
+}
 .form_div {
     float: none !important;
     display: inline-block;
