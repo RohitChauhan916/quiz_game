@@ -13,14 +13,16 @@
 		<div class="row">
 			<div class="col-md-4 col-sm-6 col-xs-12 form_left">
 			   <div class="form_block">
+			       <div class="form">
 					  <div class="imgcontainer">
 						<img src="images/aipl.png" alt="logo" class="logo">
 					  </div>
 
 					    <div class="input_data">
-							<a href="sign-up.php"><button type="submit" class="signin">sign up</button></a>
+							<a href="Sign-up.php"><button type="submit" class="signin">sign up</button></a>
 							<a href="sign_in.php"><button type="submit">sign in</button></a>
 						</div>
+							</div>
 				</div>
 			</div>
 		

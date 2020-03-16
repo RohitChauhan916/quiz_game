@@ -1,0 +1,677 @@
+[16-Mar-2020 05:57:53 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/eikdo8t2rlq9/public_html/quiz_game/class/users.php:31
+Stack trace:
+#0 /home/eikdo8t2rlq9/public_html/quiz_game/signin.php(5): users->signin('rohit@gmail.com', '12345')
+#1 {main}
+  thrown in /home/eikdo8t2rlq9/public_html/quiz_game/class/users.php on line 31
+[16-Mar-2020 05:58:53 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 3
+[16-Mar-2020 05:58:53 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/eikdo8t2rlq9/public_html/quiz_game/class/users.php:45
+Stack trace:
+#0 /home/eikdo8t2rlq9/public_html/quiz_game/home.php(5): users->users_profile(NULL)
+#1 {main}
+  thrown in /home/eikdo8t2rlq9/public_html/quiz_game/class/users.php on line 45
+[16-Mar-2020 05:59:09 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 3
+[16-Mar-2020 05:59:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/eikdo8t2rlq9/public_html/quiz_game/class/users.php:45
+Stack trace:
+#0 /home/eikdo8t2rlq9/public_html/quiz_game/home.php(5): users->users_profile(NULL)
+#1 {main}
+  thrown in /home/eikdo8t2rlq9/public_html/quiz_game/class/users.php on line 45
+[16-Mar-2020 05:59:43 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 3
+[16-Mar-2020 05:59:43 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/eikdo8t2rlq9/public_html/quiz_game/class/users.php:45
+Stack trace:
+#0 /home/eikdo8t2rlq9/public_html/quiz_game/home.php(5): users->users_profile(NULL)
+#1 {main}
+  thrown in /home/eikdo8t2rlq9/public_html/quiz_game/class/users.php on line 45
+[16-Mar-2020 06:00:30 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 3
+[16-Mar-2020 06:00:30 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/eikdo8t2rlq9/public_html/quiz_game/class/users.php:45
+Stack trace:
+#0 /home/eikdo8t2rlq9/public_html/quiz_game/home.php(5): users->users_profile(NULL)
+#1 {main}
+  thrown in /home/eikdo8t2rlq9/public_html/quiz_game/class/users.php on line 45
+[16-Mar-2020 06:00:34 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 3
+[16-Mar-2020 06:00:34 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/eikdo8t2rlq9/public_html/quiz_game/class/users.php:45
+Stack trace:
+#0 /home/eikdo8t2rlq9/public_html/quiz_game/home.php(5): users->users_profile(NULL)
+#1 {main}
+  thrown in /home/eikdo8t2rlq9/public_html/quiz_game/class/users.php on line 45
+[16-Mar-2020 06:01:11 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 3
+[16-Mar-2020 06:01:11 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/eikdo8t2rlq9/public_html/quiz_game/class/users.php:45
+Stack trace:
+#0 /home/eikdo8t2rlq9/public_html/quiz_game/home.php(5): users->users_profile(NULL)
+#1 {main}
+  thrown in /home/eikdo8t2rlq9/public_html/quiz_game/class/users.php on line 45
+[16-Mar-2020 06:01:38 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 3
+[16-Mar-2020 06:01:38 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/eikdo8t2rlq9/public_html/quiz_game/class/users.php:45
+Stack trace:
+#0 /home/eikdo8t2rlq9/public_html/quiz_game/home.php(5): users->users_profile(NULL)
+#1 {main}
+  thrown in /home/eikdo8t2rlq9/public_html/quiz_game/class/users.php on line 45
+[16-Mar-2020 06:02:25 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 3
+[16-Mar-2020 06:02:25 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/eikdo8t2rlq9/public_html/quiz_game/class/users.php:45
+Stack trace:
+#0 /home/eikdo8t2rlq9/public_html/quiz_game/home.php(5): users->users_profile(NULL)
+#1 {main}
+  thrown in /home/eikdo8t2rlq9/public_html/quiz_game/class/users.php on line 45
+[16-Mar-2020 06:02:49 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/welcome.php on line 3
+[16-Mar-2020 06:02:49 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/eikdo8t2rlq9/public_html/quiz_game/class/users.php:45
+Stack trace:
+#0 /home/eikdo8t2rlq9/public_html/quiz_game/welcome.php(5): users->users_profile(NULL)
+#1 {main}
+  thrown in /home/eikdo8t2rlq9/public_html/quiz_game/class/users.php on line 45
+[16-Mar-2020 06:06:04 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 3
+[16-Mar-2020 06:06:04 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/eikdo8t2rlq9/public_html/quiz_game/class/users.php:45
+Stack trace:
+#0 /home/eikdo8t2rlq9/public_html/quiz_game/home.php(5): users->users_profile(NULL)
+#1 {main}
+  thrown in /home/eikdo8t2rlq9/public_html/quiz_game/class/users.php on line 45
+[16-Mar-2020 06:06:15 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 3
+[16-Mar-2020 06:06:15 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/eikdo8t2rlq9/public_html/quiz_game/class/users.php:45
+Stack trace:
+#0 /home/eikdo8t2rlq9/public_html/quiz_game/home.php(5): users->users_profile(NULL)
+#1 {main}
+  thrown in /home/eikdo8t2rlq9/public_html/quiz_game/class/users.php on line 45
+[16-Mar-2020 06:06:25 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 3
+[16-Mar-2020 06:06:25 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/eikdo8t2rlq9/public_html/quiz_game/class/users.php:45
+Stack trace:
+#0 /home/eikdo8t2rlq9/public_html/quiz_game/home.php(5): users->users_profile(NULL)
+#1 {main}
+  thrown in /home/eikdo8t2rlq9/public_html/quiz_game/class/users.php on line 45
+[16-Mar-2020 06:06:48 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:06:48 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/eikdo8t2rlq9/public_html/quiz_game/class/users.php:45
+Stack trace:
+#0 /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php(5): users->users_profile(NULL)
+#1 {main}
+  thrown in /home/eikdo8t2rlq9/public_html/quiz_game/class/users.php on line 45
+[16-Mar-2020 06:08:21 UTC] PHP Warning:  include(quiz_game/class/users.php): failed to open stream: No such file or directory in /home/eikdo8t2rlq9/public_html/quiz_game/signin.php on line 2
+[16-Mar-2020 06:08:21 UTC] PHP Warning:  include(): Failed opening 'quiz_game/class/users.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/eikdo8t2rlq9/public_html/quiz_game/signin.php on line 2
+[16-Mar-2020 06:08:21 UTC] PHP Fatal error:  Uncaught Error: Class 'users' not found in /home/eikdo8t2rlq9/public_html/quiz_game/signin.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/eikdo8t2rlq9/public_html/quiz_game/signin.php on line 3
+[16-Mar-2020 06:08:58 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 3
+[16-Mar-2020 06:08:58 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/eikdo8t2rlq9/public_html/quiz_game/class/users.php:45
+Stack trace:
+#0 /home/eikdo8t2rlq9/public_html/quiz_game/home.php(5): users->users_profile(NULL)
+#1 {main}
+  thrown in /home/eikdo8t2rlq9/public_html/quiz_game/class/users.php on line 45
+[16-Mar-2020 06:10:00 UTC] PHP Warning:  include(): http:// wrapper is disabled in the server configuration by allow_url_include=0 in /home/eikdo8t2rlq9/public_html/quiz_game/signin.php on line 2
+[16-Mar-2020 06:10:00 UTC] PHP Warning:  include(http://www.aiplsunjet.com/quiz_game/class/users.php): failed to open stream: no suitable wrapper could be found in /home/eikdo8t2rlq9/public_html/quiz_game/signin.php on line 2
+[16-Mar-2020 06:10:00 UTC] PHP Warning:  include(): Failed opening 'http://www.aiplsunjet.com/quiz_game/class/users.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/eikdo8t2rlq9/public_html/quiz_game/signin.php on line 2
+[16-Mar-2020 06:10:00 UTC] PHP Fatal error:  Uncaught Error: Class 'users' not found in /home/eikdo8t2rlq9/public_html/quiz_game/signin.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/eikdo8t2rlq9/public_html/quiz_game/signin.php on line 3
+[16-Mar-2020 06:15:02 UTC] PHP Notice:  Undefined index: date in /home/eikdo8t2rlq9/public_html/quiz_game/signup.php on line 5
+[16-Mar-2020 06:15:02 UTC] PHP Notice:  Undefined index: reg_img in /home/eikdo8t2rlq9/public_html/quiz_game/signup.php on line 6
+[16-Mar-2020 06:15:02 UTC] PHP Notice:  Undefined index: reg_img in /home/eikdo8t2rlq9/public_html/quiz_game/signup.php on line 7
+[16-Mar-2020 06:15:02 UTC] PHP Notice:  Undefined variable: reg_name in /home/eikdo8t2rlq9/public_html/quiz_game/signup.php on line 9
+[16-Mar-2020 06:15:02 UTC] PHP Notice:  Undefined variable: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/signup.php on line 9
+[16-Mar-2020 06:15:02 UTC] PHP Notice:  Undefined variable: reg_pass in /home/eikdo8t2rlq9/public_html/quiz_game/signup.php on line 9
+[16-Mar-2020 06:15:59 UTC] PHP Notice:  Undefined index: date in /home/eikdo8t2rlq9/public_html/quiz_game/signup.php on line 5
+[16-Mar-2020 06:15:59 UTC] PHP Notice:  Undefined index: reg_img in /home/eikdo8t2rlq9/public_html/quiz_game/signup.php on line 6
+[16-Mar-2020 06:15:59 UTC] PHP Notice:  Undefined index: reg_img in /home/eikdo8t2rlq9/public_html/quiz_game/signup.php on line 7
+[16-Mar-2020 06:15:59 UTC] PHP Notice:  Undefined variable: reg_name in /home/eikdo8t2rlq9/public_html/quiz_game/signup.php on line 9
+[16-Mar-2020 06:15:59 UTC] PHP Notice:  Undefined variable: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/signup.php on line 9
+[16-Mar-2020 06:15:59 UTC] PHP Notice:  Undefined variable: reg_pass in /home/eikdo8t2rlq9/public_html/quiz_game/signup.php on line 9
+[16-Mar-2020 06:21:13 UTC] PHP Notice:  Undefined index: date in /home/eikdo8t2rlq9/public_html/quiz_game/signup.php on line 5
+[16-Mar-2020 06:21:33 UTC] PHP Warning:  include(): http:// wrapper is disabled in the server configuration by allow_url_include=0 in /home/eikdo8t2rlq9/public_html/quiz_game/signin.php on line 2
+[16-Mar-2020 06:21:33 UTC] PHP Warning:  include(http://www.aiplsunjet.com/quiz_game/class/users.php): failed to open stream: no suitable wrapper could be found in /home/eikdo8t2rlq9/public_html/quiz_game/signin.php on line 2
+[16-Mar-2020 06:21:33 UTC] PHP Warning:  include(): Failed opening 'http://www.aiplsunjet.com/quiz_game/class/users.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/eikdo8t2rlq9/public_html/quiz_game/signin.php on line 2
+[16-Mar-2020 06:21:33 UTC] PHP Fatal error:  Uncaught Error: Class 'users' not found in /home/eikdo8t2rlq9/public_html/quiz_game/signin.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/eikdo8t2rlq9/public_html/quiz_game/signin.php on line 3
+[16-Mar-2020 06:23:12 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 3
+[16-Mar-2020 06:23:12 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/eikdo8t2rlq9/public_html/quiz_game/class/users.php:45
+Stack trace:
+#0 /home/eikdo8t2rlq9/public_html/quiz_game/home.php(5): users->users_profile(NULL)
+#1 {main}
+  thrown in /home/eikdo8t2rlq9/public_html/quiz_game/class/users.php on line 45
+[16-Mar-2020 06:25:43 UTC] PHP Warning:  include(): http:// wrapper is disabled in the server configuration by allow_url_include=0 in /home/eikdo8t2rlq9/public_html/quiz_game/signin.php on line 2
+[16-Mar-2020 06:25:43 UTC] PHP Warning:  include(http://www.aiplsunjet.com/quiz_game/class/users.php): failed to open stream: no suitable wrapper could be found in /home/eikdo8t2rlq9/public_html/quiz_game/signin.php on line 2
+[16-Mar-2020 06:25:43 UTC] PHP Warning:  include(): Failed opening 'http://www.aiplsunjet.com/quiz_game/class/users.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/eikdo8t2rlq9/public_html/quiz_game/signin.php on line 2
+[16-Mar-2020 06:25:43 UTC] PHP Fatal error:  Uncaught Error: Class 'users' not found in /home/eikdo8t2rlq9/public_html/quiz_game/signin.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/eikdo8t2rlq9/public_html/quiz_game/signin.php on line 3
+[16-Mar-2020 06:26:29 UTC] PHP Notice:  Undefined index: date in /home/eikdo8t2rlq9/public_html/quiz_game/signup.php on line 5
+[16-Mar-2020 06:28:30 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:28:30 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:28:30 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:28:30 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:28:30 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:28:30 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:28:30 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:28:30 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:28:30 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:28:31 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:28:31 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:28:31 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:28:31 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:28:31 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:28:31 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:28:32 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:28:32 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:28:32 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:28:32 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:28:32 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:28:32 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:28:32 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:28:32 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:28:32 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:28:33 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:28:33 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:28:33 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:28:33 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:28:33 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:28:33 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:28:33 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:28:33 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:28:33 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:28:34 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:28:34 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:28:34 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:28:34 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:28:34 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:28:34 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:28:35 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:28:35 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:28:35 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:28:35 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:28:35 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:28:35 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:28:35 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:28:35 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:28:35 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:28:36 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:28:36 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:28:36 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:28:36 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:28:36 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:28:36 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:28:36 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:28:36 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:28:36 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:28:37 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:28:37 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:28:37 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:28:37 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:28:37 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:28:37 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:29:08 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:29:08 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:29:08 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:29:08 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:29:08 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:29:08 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:29:09 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:29:09 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:29:09 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:29:09 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:29:09 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:29:09 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:29:09 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:29:09 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:29:09 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:29:10 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:29:10 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:29:10 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:29:10 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:29:10 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:29:10 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:29:11 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:29:11 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:29:11 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:29:11 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:29:11 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:29:11 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:29:11 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:29:11 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:29:11 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:29:12 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:29:12 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:29:12 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:29:12 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:29:12 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:29:12 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:29:12 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:29:12 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:29:12 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:29:13 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:29:13 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:29:13 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:29:13 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:29:13 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:29:13 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:29:13 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:29:13 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:29:13 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:29:14 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:29:14 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:29:14 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:29:14 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:29:14 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:29:14 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:29:14 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:29:14 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:29:14 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:29:15 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:29:15 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:29:15 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:29:15 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:29:15 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:29:15 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:29:24 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:29:24 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:29:24 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:29:24 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:29:24 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:29:24 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:29:24 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:29:24 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:29:24 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:29:25 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:29:25 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:29:25 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:29:25 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:29:25 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:29:25 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:29:25 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:29:25 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:29:25 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:29:26 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:29:26 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:29:26 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:29:26 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:29:26 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:29:26 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:29:26 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:29:26 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:29:26 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:29:27 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:29:27 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:29:27 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:29:27 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:29:27 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:29:27 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:29:27 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:29:27 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:29:27 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:29:28 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:29:28 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:29:28 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:29:28 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:29:28 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:29:28 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:29:28 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:29:28 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:29:28 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:29:29 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:29:29 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:29:29 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:29:29 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:29:29 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:29:29 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:29:29 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:29:29 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:29:29 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:29:30 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:29:30 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:29:30 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:29:30 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:29:30 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:29:30 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:29:30 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:29:30 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:29:30 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:29:57 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:29:57 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:29:57 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:29:58 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:29:58 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:29:58 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:29:58 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:29:58 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:29:58 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:29:59 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:29:59 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:29:59 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:29:59 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:29:59 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:29:59 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:29:59 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:29:59 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:29:59 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:30:00 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:30:00 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:30:00 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:30:00 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:30:00 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:30:00 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:30:01 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:30:01 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:30:01 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:30:01 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:30:01 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:30:01 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:30:01 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:30:01 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:30:01 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:30:02 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:30:02 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:30:02 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:30:02 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:30:02 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:30:02 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:30:02 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:30:03 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:30:03 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:30:03 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:30:03 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:30:03 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:30:03 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:30:03 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:30:03 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:30:04 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:30:04 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:30:04 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:30:04 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:30:04 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:30:04 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:30:04 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:30:04 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:30:04 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:30:05 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:30:05 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:30:05 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:30:05 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:30:05 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:30:05 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:30:58 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:30:58 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:30:58 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:30:59 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:30:59 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:30:59 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:30:59 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:30:59 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:30:59 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:30:59 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:30:59 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:30:59 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:31:00 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:31:00 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:31:00 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:31:01 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:31:01 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:31:01 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:31:01 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:31:01 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:31:01 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:31:01 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:31:01 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:31:01 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:31:02 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:31:02 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:31:02 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:31:02 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:31:02 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:31:02 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:31:03 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:31:03 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:31:03 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:31:03 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:31:03 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:31:03 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:31:04 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:31:04 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:31:04 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:31:04 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:31:04 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:31:04 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:31:04 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:31:04 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:31:04 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:31:05 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:31:05 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:31:05 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:31:05 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:31:05 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:31:05 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:31:05 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:31:05 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:31:05 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:31:06 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:31:06 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:31:06 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:31:06 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:31:06 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:31:06 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:31:06 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 06:31:06 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 06:31:06 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 06:31:36 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 3
+[16-Mar-2020 06:31:36 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 7
+[16-Mar-2020 06:31:36 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 9
+[16-Mar-2020 06:31:37 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 3
+[16-Mar-2020 06:31:37 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 7
+[16-Mar-2020 06:31:37 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 9
+[16-Mar-2020 06:31:37 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 3
+[16-Mar-2020 06:31:37 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 7
+[16-Mar-2020 06:31:37 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 9
+[16-Mar-2020 06:31:37 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 3
+[16-Mar-2020 06:31:37 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 7
+[16-Mar-2020 06:31:37 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 9
+[16-Mar-2020 06:31:38 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 3
+[16-Mar-2020 06:31:38 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 7
+[16-Mar-2020 06:31:38 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 9
+[16-Mar-2020 06:31:38 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 3
+[16-Mar-2020 06:31:38 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 7
+[16-Mar-2020 06:31:38 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 9
+[16-Mar-2020 06:31:38 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 3
+[16-Mar-2020 06:31:38 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 7
+[16-Mar-2020 06:31:38 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 9
+[16-Mar-2020 06:31:39 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 3
+[16-Mar-2020 06:31:39 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 7
+[16-Mar-2020 06:31:39 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 9
+[16-Mar-2020 06:31:39 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 3
+[16-Mar-2020 06:31:39 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 7
+[16-Mar-2020 06:31:39 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 9
+[16-Mar-2020 06:31:40 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 3
+[16-Mar-2020 06:31:40 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 7
+[16-Mar-2020 06:31:40 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 9
+[16-Mar-2020 06:31:40 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 3
+[16-Mar-2020 06:31:40 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 7
+[16-Mar-2020 06:31:40 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 9
+[16-Mar-2020 06:31:40 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 3
+[16-Mar-2020 06:31:40 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 7
+[16-Mar-2020 06:31:40 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 9
+[16-Mar-2020 06:31:41 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 3
+[16-Mar-2020 06:31:41 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 7
+[16-Mar-2020 06:31:41 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 9
+[16-Mar-2020 06:31:41 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 3
+[16-Mar-2020 06:31:41 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 7
+[16-Mar-2020 06:31:41 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 9
+[16-Mar-2020 06:31:41 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 3
+[16-Mar-2020 06:31:41 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 7
+[16-Mar-2020 06:31:41 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 9
+[16-Mar-2020 06:31:42 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 3
+[16-Mar-2020 06:31:42 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 7
+[16-Mar-2020 06:31:42 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 9
+[16-Mar-2020 06:31:42 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 3
+[16-Mar-2020 06:31:42 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 7
+[16-Mar-2020 06:31:42 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 9
+[16-Mar-2020 06:31:42 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 3
+[16-Mar-2020 06:31:42 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 7
+[16-Mar-2020 06:31:42 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 9
+[16-Mar-2020 06:31:43 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 3
+[16-Mar-2020 06:31:43 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 7
+[16-Mar-2020 06:31:43 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 9
+[16-Mar-2020 06:31:43 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 3
+[16-Mar-2020 06:31:43 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 7
+[16-Mar-2020 06:31:43 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 9
+[16-Mar-2020 06:32:13 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 3
+[16-Mar-2020 06:32:13 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 7
+[16-Mar-2020 06:32:13 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 9
+[16-Mar-2020 06:32:13 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 3
+[16-Mar-2020 06:32:13 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 7
+[16-Mar-2020 06:32:13 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 9
+[16-Mar-2020 06:32:13 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 3
+[16-Mar-2020 06:32:13 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 7
+[16-Mar-2020 06:32:13 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 9
+[16-Mar-2020 06:32:14 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 3
+[16-Mar-2020 06:32:14 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 7
+[16-Mar-2020 06:32:14 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 9
+[16-Mar-2020 06:32:14 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 3
+[16-Mar-2020 06:32:14 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 7
+[16-Mar-2020 06:32:14 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 9
+[16-Mar-2020 06:32:14 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 3
+[16-Mar-2020 06:32:14 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 7
+[16-Mar-2020 06:32:14 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 9
+[16-Mar-2020 06:32:15 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 3
+[16-Mar-2020 06:32:15 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 7
+[16-Mar-2020 06:32:15 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 9
+[16-Mar-2020 06:32:15 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 3
+[16-Mar-2020 06:32:15 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 7
+[16-Mar-2020 06:32:15 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 9
+[16-Mar-2020 06:32:16 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 3
+[16-Mar-2020 06:32:16 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 7
+[16-Mar-2020 06:32:16 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 9
+[16-Mar-2020 06:32:16 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 3
+[16-Mar-2020 06:32:16 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 7
+[16-Mar-2020 06:32:16 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 9
+[16-Mar-2020 06:32:16 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 3
+[16-Mar-2020 06:32:16 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 7
+[16-Mar-2020 06:32:16 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 9
+[16-Mar-2020 06:32:17 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 3
+[16-Mar-2020 06:32:17 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 7
+[16-Mar-2020 06:32:17 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 9
+[16-Mar-2020 06:32:18 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 3
+[16-Mar-2020 06:32:18 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 7
+[16-Mar-2020 06:32:18 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 9
+[16-Mar-2020 06:32:18 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 3
+[16-Mar-2020 06:32:18 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 7
+[16-Mar-2020 06:32:18 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 9
+[16-Mar-2020 06:32:18 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 3
+[16-Mar-2020 06:32:19 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 7
+[16-Mar-2020 06:32:19 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 9
+[16-Mar-2020 06:32:19 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 3
+[16-Mar-2020 06:32:19 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 7
+[16-Mar-2020 06:32:19 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 9
+[16-Mar-2020 06:32:19 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 3
+[16-Mar-2020 06:32:19 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 7
+[16-Mar-2020 06:32:19 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 9
+[16-Mar-2020 06:32:20 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 3
+[16-Mar-2020 06:32:20 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 7
+[16-Mar-2020 06:32:20 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 9
+[16-Mar-2020 06:32:20 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 3
+[16-Mar-2020 06:32:20 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 7
+[16-Mar-2020 06:32:20 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 9
+[16-Mar-2020 06:32:20 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 3
+[16-Mar-2020 06:32:20 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 7
+[16-Mar-2020 06:32:20 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 9
+[16-Mar-2020 06:32:21 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 3
+[16-Mar-2020 06:32:21 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 7
+[16-Mar-2020 06:32:21 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 9
+[16-Mar-2020 06:32:52 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 3
+[16-Mar-2020 06:32:52 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 7
+[16-Mar-2020 06:32:52 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 9
+[16-Mar-2020 06:32:52 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 3
+[16-Mar-2020 06:32:52 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 7
+[16-Mar-2020 06:32:52 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 9
+[16-Mar-2020 06:32:52 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 3
+[16-Mar-2020 06:32:52 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 7
+[16-Mar-2020 06:32:52 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 9
+[16-Mar-2020 06:32:53 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 3
+[16-Mar-2020 06:32:53 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 7
+[16-Mar-2020 06:32:53 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 9
+[16-Mar-2020 06:32:53 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 3
+[16-Mar-2020 06:32:53 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 7
+[16-Mar-2020 06:32:53 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 9
+[16-Mar-2020 06:32:53 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 3
+[16-Mar-2020 06:32:53 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 7
+[16-Mar-2020 06:32:53 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 9
+[16-Mar-2020 06:32:54 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 3
+[16-Mar-2020 06:32:54 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 7
+[16-Mar-2020 06:32:54 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 9
+[16-Mar-2020 06:32:54 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 3
+[16-Mar-2020 06:32:54 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 7
+[16-Mar-2020 06:32:54 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 9
+[16-Mar-2020 06:32:54 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 3
+[16-Mar-2020 06:32:54 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 7
+[16-Mar-2020 06:32:54 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 9
+[16-Mar-2020 06:32:55 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 3
+[16-Mar-2020 06:32:55 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 7
+[16-Mar-2020 06:32:55 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 9
+[16-Mar-2020 06:32:55 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 3
+[16-Mar-2020 06:32:55 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 7
+[16-Mar-2020 06:32:55 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 9
+[16-Mar-2020 06:32:55 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 3
+[16-Mar-2020 06:32:55 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 7
+[16-Mar-2020 06:32:55 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 9
+[16-Mar-2020 06:32:56 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 3
+[16-Mar-2020 06:32:56 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 7
+[16-Mar-2020 06:32:56 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 9
+[16-Mar-2020 06:32:56 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 3
+[16-Mar-2020 06:32:56 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 7
+[16-Mar-2020 06:32:56 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 9
+[16-Mar-2020 06:32:56 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 3
+[16-Mar-2020 06:32:56 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 7
+[16-Mar-2020 06:32:56 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 9
+[16-Mar-2020 06:32:57 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 3
+[16-Mar-2020 06:32:57 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 7
+[16-Mar-2020 06:32:57 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 9
+[16-Mar-2020 06:32:57 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 3
+[16-Mar-2020 06:32:57 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 7
+[16-Mar-2020 06:32:57 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 9
+[16-Mar-2020 06:32:57 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 3
+[16-Mar-2020 06:32:57 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 7
+[16-Mar-2020 06:32:57 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 9
+[16-Mar-2020 06:32:58 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 3
+[16-Mar-2020 06:32:58 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 7
+[16-Mar-2020 06:32:58 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 9
+[16-Mar-2020 06:32:58 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 3
+[16-Mar-2020 06:32:58 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 7
+[16-Mar-2020 06:32:58 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/home.php on line 9
+[16-Mar-2020 06:36:00 UTC] PHP Notice:  Undefined offset: 1 in /home/eikdo8t2rlq9/public_html/quiz_game/class/users.php on line 81
+[16-Mar-2020 06:36:00 UTC] PHP Notice:  Undefined offset: 1 in /home/eikdo8t2rlq9/public_html/quiz_game/class/users.php on line 85
+[16-Mar-2020 06:36:00 UTC] PHP Notice:  Undefined offset: 2 in /home/eikdo8t2rlq9/public_html/quiz_game/class/users.php on line 81
+[16-Mar-2020 06:36:00 UTC] PHP Notice:  Undefined offset: 2 in /home/eikdo8t2rlq9/public_html/quiz_game/class/users.php on line 85
+[16-Mar-2020 07:07:40 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 07:07:40 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 07:07:40 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 07:07:43 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 07:07:43 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 07:07:43 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 07:07:43 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 07:07:43 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 07:07:43 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 07:07:43 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 3
+[16-Mar-2020 07:07:43 UTC] PHP Notice:  Undefined index: reg_email in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 7
+[16-Mar-2020 07:07:43 UTC] PHP Notice:  Undefined variable: url in /home/eikdo8t2rlq9/public_html/quiz_game/paper_choice.php on line 9
+[16-Mar-2020 09:47:08 UTC] PHP Notice:  Undefined index: date in /home/eikdo8t2rlq9/public_html/quiz_game/signup.php on line 5
+[16-Mar-2020 09:52:35 UTC] PHP Notice:  Undefined index: date in /home/eikdo8t2rlq9/public_html/quiz_game/signup.php on line 5
+[16-Mar-2020 09:55:00 UTC] PHP Notice:  Undefined index: cat in /home/eikdo8t2rlq9/public_html/quiz_game/ques_show.php on line 7
+[16-Mar-2020 09:55:00 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/eikdo8t2rlq9/public_html/quiz_game/ques_show.php on line 64
+[16-Mar-2020 09:56:39 UTC] PHP Notice:  Undefined index: cat in /home/eikdo8t2rlq9/public_html/quiz_game/ques_show.php on line 7
+[16-Mar-2020 09:56:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/eikdo8t2rlq9/public_html/quiz_game/ques_show.php on line 64
+[16-Mar-2020 09:57:38 UTC] PHP Notice:  Undefined index: cat in /home/eikdo8t2rlq9/public_html/quiz_game/ques_show.php on line 7
+[16-Mar-2020 09:57:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/eikdo8t2rlq9/public_html/quiz_game/ques_show.php on line 64
+[16-Mar-2020 09:58:19 UTC] PHP Notice:  Undefined index: cat in /home/eikdo8t2rlq9/public_html/quiz_game/ques_show.php on line 7
+[16-Mar-2020 09:58:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/eikdo8t2rlq9/public_html/quiz_game/ques_show.php on line 64
+[16-Mar-2020 09:58:20 UTC] PHP Notice:  Undefined index: cat in /home/eikdo8t2rlq9/public_html/quiz_game/ques_show.php on line 7
+[16-Mar-2020 09:58:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/eikdo8t2rlq9/public_html/quiz_game/ques_show.php on line 64
+[16-Mar-2020 09:58:20 UTC] PHP Notice:  Undefined index: cat in /home/eikdo8t2rlq9/public_html/quiz_game/ques_show.php on line 7
+[16-Mar-2020 09:58:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/eikdo8t2rlq9/public_html/quiz_game/ques_show.php on line 64
+[16-Mar-2020 09:58:20 UTC] PHP Notice:  Undefined index: cat in /home/eikdo8t2rlq9/public_html/quiz_game/ques_show.php on line 7
+[16-Mar-2020 09:58:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/eikdo8t2rlq9/public_html/quiz_game/ques_show.php on line 64
+[16-Mar-2020 09:58:20 UTC] PHP Notice:  Undefined index: cat in /home/eikdo8t2rlq9/public_html/quiz_game/ques_show.php on line 7
+[16-Mar-2020 09:58:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/eikdo8t2rlq9/public_html/quiz_game/ques_show.php on line 64
+[16-Mar-2020 09:58:29 UTC] PHP Notice:  Undefined index: cat in /home/eikdo8t2rlq9/public_html/quiz_game/ques_show.php on line 7
+[16-Mar-2020 09:58:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/eikdo8t2rlq9/public_html/quiz_game/ques_show.php on line 64
+[16-Mar-2020 09:58:34 UTC] PHP Notice:  Undefined index: cat in /home/eikdo8t2rlq9/public_html/quiz_game/ques_show.php on line 7
+[16-Mar-2020 09:58:34 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/eikdo8t2rlq9/public_html/quiz_game/ques_show.php on line 64
+[16-Mar-2020 09:59:03 UTC] PHP Notice:  Undefined index: cat in /home/eikdo8t2rlq9/public_html/quiz_game/ques_show.php on line 7
+[16-Mar-2020 09:59:03 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/eikdo8t2rlq9/public_html/quiz_game/ques_show.php on line 64
+[16-Mar-2020 09:59:10 UTC] PHP Notice:  Undefined index: cat in /home/eikdo8t2rlq9/public_html/quiz_game/ques_show.php on line 7
+[16-Mar-2020 09:59:10 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/eikdo8t2rlq9/public_html/quiz_game/ques_show.php on line 64
+[16-Mar-2020 10:00:08 UTC] PHP Notice:  Undefined index: date in /home/eikdo8t2rlq9/public_html/quiz_game/signup.php on line 5

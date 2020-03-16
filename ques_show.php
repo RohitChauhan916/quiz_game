@@ -61,9 +61,7 @@ if($_SESSION['reg_email']=="")
 				         <form action="answer.php" id="form1" method="post">
                  <?php
 				  $i=1;
-				  $questcount = 0;
 				   foreach($qus->qus as $quest)
-				   $questcount++;
                   {
                   ?>
         <div class="questions">
@@ -118,8 +116,7 @@ if($_SESSION['reg_email']=="")
 
                  <div class="online_button">
 		  <input type="button" value="Next" class="waves-effect waves-light btn" id="next">
-		  <?php $view = (empty($quest))?"disabled":" ";?>
-          <button type="submit" value="submit" class="waves-effect waves-light btn" {$view} name="submit">submit</button>    	
+          <button type="submit" value="submit" class="waves-effect waves-light btn" name="submit">submit</button>    	
                 </div>
 				</form>  			   
 			</div>

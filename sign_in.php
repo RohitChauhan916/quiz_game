@@ -44,7 +44,7 @@
 						</div>
 					  
 
-					    <p class="sign_up"> Don't have an account .  <a href="sign-up.php" target="_blank"> Sign up  </a></p>
+					    <p class="sign_up"> Don't have an account .  <a href="Sign-up.php" target="_blank"> Sign up  </a></p>
 					
 				</form>
 								</div>

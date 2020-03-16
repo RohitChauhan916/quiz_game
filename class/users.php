@@ -2,8 +2,8 @@
 session_start();
     class users {
         public $host = "localhost";
-        public $username = "root";
-        public $password = "";
+        public $username = "quizgames";
+        public $password = "quizgames";
         public $db_name = "quizgames";
         public $conn;
         public $row;

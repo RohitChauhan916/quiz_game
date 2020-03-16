@@ -57,7 +57,7 @@ body {
     padding: 8px 0;
     font-size: 14px;
     text-transform: uppercase;
-    background: #f59659;
+    background:#d42802;
     color: #fff;
     border: none;
     margin-bottom: 20px;
@@ -74,11 +74,11 @@ body {
 }
 .form_right .input_data label {
     width: 100%;
-    color: #fdd8b4;
+    color: #f9f6f2;
     font-size: 13px;
     text-align: left;
     text-transform: capitalize;
-    font-weight: 400;
+    font-weight: 600;
 }
 .welcome_pg .input_data label{
 	padding-left: 26px;
@@ -93,8 +93,7 @@ body {
     border: none;
     border-bottom: 1px solid #ece7e7;
 	font-size:14px;
-	color:#fff;
-	text-transform:uppercase;
+	color:#fff;	
 }
 .form_right .input_data input[type=text]:focus,.form_right .input_data input[type=password]:focus{
 	outline:none;
@@ -197,8 +196,8 @@ input#checkb {
     padding: 135px 45px;
     background-size: 100% 103%;
 }
-.online_button button,.paper_choice button{
-    background: #f59659;
+.online_button button,.paper_choice button,.paper input[type=button]{
+    background:#d42802;
     width: 80%;
     margin-bottom: 12px;
     color: #fff;
@@ -206,10 +205,10 @@ input#checkb {
     text-transform: uppercase;
     font-size: 14px;
 }
-.paper_choice button{
-	border:none;
-	padding:10px 0;
-	width:60%;
+.paper_choice button {
+    border: none;
+    padding: 10px 0;
+    width: 60%;
 }
 .online_button button:hover{
 	color:#fff;
@@ -352,27 +351,61 @@ input#checkb {
 		width: 100%;
 		padding:0 !important; 
 	}
+	.paper h4{
+		color:#000;
+		font-size:16px;
+	}
+	.paper .form_right p {
+		color: #000;
+	}
+	.paper button,.paper_choice button{
+		    background: #b63228;
+	}
+	.paper .form_block {
+		padding: 110px 45px !important;
+	}
+	.paper .online_button button.waves-effect {
+		background: #fff;
+		color: #bf3703;
+		border: 1px solid #bf3703;
+	}
+	form,.form {
+		background:#f9f9f96e;
+		padding: 13px;
+		display:inline-block;
+	}
 	.main_page .form_block{		
 		box-shadow: none !important;
 		background-color:transparent !important;
-	}	
-	.login_pg form {
+	}
+	form,.form {
 		padding: 39px 26px;
+		width: 282px;
+		display: inline-block;
+		box-shadow: 1px 3px 10px #00000069;
 	}
 	.login_pg .form_block {
-		padding: 34px 19px !important;
-	}	
-	.form_right .imgcontainer,.input_data,.form_right p {
+		padding:118px 19px !important;
+	}
+	.form_right .imgcontainer, .input_data, .form_right p {
 		position: relative;
+		font-weight: 600;
 	}
 	.form_left {
 		width: 100%;
 		padding:0 !important; 
 	}
+	.form_block {
+		text-align: center;
+	}
 	.main_page .form_block{
 		background-image:none;
 		border-radius:0;		
 	}	
+	.paper form{
+		background: #ffffff;
+		border-radius: 22px;
+	}
 	.form_right{
 		padding:0 !important;
 	}	
@@ -383,29 +416,44 @@ input#checkb {
 		padding:0 !important;
 	}
 	.main_page .form_block {
-		padding: 95px 45px;
+		padding: 113px 45px 180px 45px;
 	}
 	.paper_choice .form_block {
 		padding: 130px 45px;
 	}
 	.welcome_pg .form_block {
-		padding: 60px 48px !important;
+		padding: 110px 48px !important;
 	}
 	.result_pg .form_block {
 		padding: 112px 45px !important;
 	}
 	body {
-			background-size: 250% 219%;
-			background-image: url(../images/banner_3.jpg);
+		background-size: 250% 219%;
+		background-image: none;
+		background: linear-gradient(to bottom, #2c67dd 0%,#d62700 72%,#7498b5 100%,#7db9e8 100%);
 	}
 	.sign_up .form_block {
-		padding: 63px 45px !important;
+		padding: 84px 45px !important;
 	}
 	.result_pg .imgcontainer img {
 		max-width: 45%;
 	}
 	.result_pg .form_block {
-		padding: 12px 45px !important;
+		padding: 64px 45px !important;
+	}
+	.result_pg form{
+		background: #f9f9f9;
+	}
+	.result_pg h2 {
+		font-size: 26px;
+		text-transform: capitalize;
+		color: #bb3021;
+	}
+	.result_pg .form_right .input_data label{
+		color: #b2342d;
+	}
+	.result_pg .form_right .input_data input[type=text],.result_pg .form_right .input_data input[type=password]{
+		    color: #3563d0;
 	}
 	body,.form_align,.form_right{
 		width:100%;

@@ -25,7 +25,8 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-4 col-sm-6 col-xs-12 form_right">
-			<div class="form_block">			
+			<div class="form_block">
+			    <div class="form">			
           <?php
             foreach($profile->data as $prof){
 
@@ -51,10 +52,10 @@ A Termination clause will inform that users' accounts on your website and mobile
 				  </div>
 							</div>
 
-							<button type="submit">next</button>
+							<a href="paper_choice.php"><button type="submit">next</button></a>
 					</div>
 					  </div>
-					
+						</div>
 			</div>
 		</div>
 	</div>
