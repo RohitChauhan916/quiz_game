@@ -25,18 +25,6 @@ $(document).ready(function(){
         });
     
     });
-    $('#previous').click(function(){
-        $($questions.get(currentQuestion)).fadeOut(function(){
-            currentQuestion = currentQuestion - 1;
-            if(currentQuestion == totalQuestions){
-                   var result = sum_values()
-                   //do stuff with the result
-                   alert(result);
-            }else{
-            $($questions.get(currentQuestion)).fadeIn();
-            }
-        });
+    });
     
-    });
-    });
     

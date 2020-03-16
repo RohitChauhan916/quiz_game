@@ -74,6 +74,7 @@ session_start();
         $right = 0;
         $wrong = 0;
         $no_answer = 0;
+        $total = 0;
         $query = $this->conn->query("select id,ans from questions where cat_id='".$_SESSION['cat']."'");
         while($qust = $query->fetch_array(MYSQLI_ASSOC))
         {
@@ -95,6 +96,7 @@ session_start();
         $array['right']=$right;
         $array['no_answer']=$no_answer;
         $array['wrong']=$wrong;
+        $array['total']=$right/3*100;
         return $array;
     }
     

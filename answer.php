@@ -16,22 +16,20 @@
   <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto:100,400,700&display=swap" rel="stylesheet"> 
 </head>
-<body>
-
-
+<body class="main_page login_pg result_pg">
 <div class="form_align">
 	<div class="container">
-		<button type="submit" value="submit" class="btn_prv" name="submit"><a href = "logout.php">logout</a></button>
-		<div class="row">
-			<div class="col-md-5  col-sm-6 col-xs-12 form_div res_data">
-		
+	<div class="row">
+	<!--<a href = "logout.php"><button type="submit" value="submit" class="btn_prv" name="submit">logout<</button>-->
+			<div class="col-md-4 col-sm-6 col-xs-12 form_right">
+			<div class="form_block">
 				<form action="index.html" method="post">
 					  <div class="imgcontainer">
 						<img src="images/aipl.png" alt="logo" class="logo">
 					  </div>
 
 					  <div class="input_data">
-					        <h2> Result Declaration Form </h2>
+					        <h2> Your Result </h2>
 					        
 					        <div class="input_block">
 							    <label> Right Answers   </label>
@@ -50,7 +48,7 @@
 							
 							<div class="input_block">
 							    <label>Your Result Score Is...  </label>
-									<input type="text"  name="uname" >
+									<input type="text" value="<?php echo $answer['total']?>" name="uname" >
 							</div>
 						
 						</div>
@@ -59,7 +57,8 @@
 				</form>
 			</div>
 		</div>
-	</div>
+</div>
+</div>
 </div>
 
 <script src="js/jquery.min.js"></script>

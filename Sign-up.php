@@ -7,13 +7,13 @@
   <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto:100,400,700&display=swap" rel="stylesheet"> 
 </head>
-<body>
+<body class="main_page sign_up">
 
 
 <div class="form_align">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-5  col-sm-6 col-xs-12 form_div">
+			<div class="col-md-4 col-sm-6 col-xs-12 form_right">
             <?php 
                     if(isset($_GET['run']) && $_GET['run']=="success"){
                         echo "<mark>Successfully Registration</mark>";
@@ -23,14 +23,14 @@
                     if(isset($_GET['run']) && $_GET['run']=="allreadyexists"){
                         echo "<mark>email allready exists</mark>";
                     }
-                ?>
+				?>
+				<div class="form_block">
 				<form action="signup.php" method="post" enctype="multipart/form-data">
 					  <div class="imgcontainer">
 						<img src="images/aipl.png" alt="logo" class="logo">
 					  </div>
 
 					  <div class="input_data">
-					        <h2>signup form </h2>
 					        
 					        <div class="input_block">
 								<input type="text" placeholder="Enter Username" name="reg_name" required class="user_input">
@@ -56,6 +56,7 @@
 					  
 					
 				</form>
+				</div>
 			</div>
 		</div>
 	</div>

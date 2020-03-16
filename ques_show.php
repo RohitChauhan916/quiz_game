@@ -38,28 +38,18 @@ if($_SESSION['reg_email']=="")
     }
   </script>
 </head>
-<body onload="timeout()">
+<body class="main_page login_pg paper" onload="timeout()">
 	
 
-<div class="paper_align">
+<div class="form_align">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-12 col-sm-12 col-xs-12 paper_div">
+			<div class="col-md-4 col-sm-6 col-xs-12 form_right paper_div">
+			<div class="form_block">
 			     <div class="header_top">
 				    <div class="head_brand">
                         <img src="images/aipl.png" alt="logo">  
 					</div>
-            <h5> online application test </h5>
-			<?php
-            foreach($profile->data as $prof){
-
-            ?>
-				<div class="input_right">
-				<div class="online_input">
-				<?php echo $prof['name'];?>
-					   </div>
-					</div>
-			<?php } ?>
             <script type="text/javascript">
               var timeLeft=1*60;
             </script>
@@ -70,8 +60,10 @@ if($_SESSION['reg_email']=="")
 			    <div class="paper_block">				       
 				         <form action="answer.php" id="form1" method="post">
                  <?php
-                  $i=1;
-                   foreach($qus->qus as $quest)
+				  $i=1;
+				  $questcount = 0;
+				   foreach($qus->qus as $quest)
+				   $questcount++;
                   {
                   ?>
         <div class="questions">
@@ -125,14 +117,15 @@ if($_SESSION['reg_email']=="")
                </div>   
 
                  <div class="online_button">
-          <input type="button" value="Previous" class="waves-effect waves-light btn" id='previous'>
-          <input type="button" value="Next" class="waves-effect waves-light btn" id='next'>
-          <button type="submit" value="submit" class="waves-effect waves-light btn" name="submit">submit</button>    	
+		  <input type="button" value="Next" class="waves-effect waves-light btn" id="next">
+		  <?php $view = (empty($quest))?"disabled":" ";?>
+          <button type="submit" value="submit" class="waves-effect waves-light btn" {$view} name="submit">submit</button>    	
                 </div>
 				</form>  			   
 			</div>
 		</div>
 	</div>
+			</div>
 </div>
 <script>
     $(document).ready(function () {
