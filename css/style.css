@@ -10,9 +10,9 @@ body {
     padding: 100px 0 0;
 }
 .options_block {
-	height: 124px;
-	overflow-y: scroll;
- }
+    height: 124px;
+    overflow-y: scroll;
+}
 .main_page .form_block {
     background-color: #0c162094;
     padding: 128px 20px;
@@ -50,7 +50,7 @@ body {
     margin-bottom: 109px;
 }
 .form_left {
-    width: 18%;
+    width: 25%;
 }
 .form_left .input_data button, .form_right .input_data button {
     width: 64%;
